@@ -5,10 +5,10 @@ def ceil_square(a, b):
     return ceil(a*b)
 
 
-a = float(input('Введите первое слагаемое: '))
-b = float(input('Введите второе слагаемое: '))
+a = float(input('Введите первую сторону: '))
+b = float(input('Введите вторую сторону: '))
 
 
-print(f'Округленное в большую сторону произведение - {ceil_square(a, b)}')
+print(f'Площадь квадрата округленная в большую сторону - {ceil_square(a, b)}')
 
 
