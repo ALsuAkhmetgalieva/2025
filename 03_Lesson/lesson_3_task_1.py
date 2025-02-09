@@ -1,4 +1,4 @@
-from les3 import User 
+from user import User 
 
 my_user = User("Alsu", "Akhmetgalieva")
 
