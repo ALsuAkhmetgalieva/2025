@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 
+
 class FormPage:
     def __init__(self, driver):
         self.driver = driver
@@ -39,3 +40,4 @@ class FormPage:
 
     def get_zip_code_class(self):
         return self.get_field_class('zip-code')
+        

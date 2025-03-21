@@ -4,6 +4,7 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 from pages.form_page import FormPage
 
+
 @pytest.mark.test_1
 def test_form():
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
@@ -34,3 +35,4 @@ def test_form():
     assert form_page.get_zip_code_class() == 'alert py-2 alert-danger'
 
     driver.quit()
+    

@@ -2,6 +2,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+
 class CalculatorPage:
     def __init__(self, driver):
         self.driver = driver
@@ -22,3 +23,4 @@ class CalculatorPage:
 
     def get_result(self):
         return self.driver.find_element(By.CSS_SELECTOR, '.screen').text
+        

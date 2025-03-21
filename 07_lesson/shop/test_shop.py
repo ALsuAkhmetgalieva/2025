@@ -4,6 +4,7 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 from pages.shop_page import ShopPage
 
+
 @pytest.mark.test_3
 def test_shop():
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
@@ -26,3 +27,4 @@ def test_shop():
 
     driver.quit()
     assert '$58.29' in total
+    
