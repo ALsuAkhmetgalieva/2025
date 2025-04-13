@@ -7,16 +7,16 @@ BASE URL : https://auth.avs.io/
 Token для выполнения автоматизированных Api тестов 
   eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJiMzViN2MwMi1jYjBmLTQ1YTEtYTAxNy01MjM4MDllMjJkNWUiLCJhY3RpdmVfZW1haWwiOiJha2htZXRnYWxpZXZhX2Fsc3VAbWFpbC5ydSJ9.lRE_8cg8FCJTcQcltgCCSiS_wQruxdoomdvYloW_v7ta1lVTkD9dmKXLrQ6jUouwoviUKBkL2XiQX4m3lXOSobCZVATV4XozvQneu24nJghLec6klnpBCSWygOexjesC9GwYMF2HpTZYc1WNhrO9jInmr2fBmS2VInGjra4t6IPJFDG00d0xGP7_9WFbDChlFzD80Fmg0RcEVmAkKaEEWexn2YzoA5_cWwu61ApS_WfuNPGTPJJCmmR-TCOGmVcS7KCSNELuDil8AxWxFu1VJ2lyoibizQXa89U97CNlX0rs0oFuHOsQrLTPBxkV3ZnQC9M8C3VYgfVugLV6rPdevw
 ## Проведение тестирования
-Импорт библиотек: Импортируем необходимые модули из Selenium.
-Настройка драйвера: Создаем экземпляр веб-драйвера.
-Открытие сайта: Переходим на сайт Aviasales.
-Поиск билетов\ отделей: Находим поле ввода для города и вводим данные. 
-Выбор дат: Указываем даты
-Нажатие кнопки поиска: Находим кнопку поиска и нажимаем ее.
-Проверка результатов: Проверяем наличие результатов поиска.
-Закрытие браузера: Закрываем браузер после завершения теста. 
-Файл test_ui автоматизированных ручных тестов из функционального чек-листа
-Файл test_api для автоматизированныз api- тестов
+Импорт библиотек: Импортируем необходимые модули из Selenium.  
+Настройка драйвера: Создаем экземпляр веб-драйвера.  
+Открытие сайта: Переходим на сайт Aviasales.  
+Поиск билетов\ отделей: Находим поле ввода для города и вводим данные.   
+Выбор дат: Указываем даты  
+Нажатие кнопки поиска: Находим кнопку поиска и нажимаем ее.  
+Проверка результатов: Проверяем наличие результатов поиска.  
+Закрытие браузера: Закрываем браузер после завершения теста.   
+Файл test_ui автоматизированных ручных тестов из функционального чек-листа  
+Файл test_api для автоматизированныз api- тестов  
 # Отчетность в Allure  
 ## Запуск тестов для формирования отчета  
 Для запуска тестов необходимо:   
